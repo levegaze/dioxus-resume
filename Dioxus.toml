@@ -5,9 +5,6 @@
 # HTML title tag content
 title = "dioxus-resume"
 
-# Base path for GitHub Pages (repo name)
-base_path = "dioxus-resume"
-
 # include `assets` in web platform
 [web.resource]
 
