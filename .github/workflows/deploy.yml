@@ -41,7 +41,7 @@ jobs:
 
       - name: Set base_path for GitHub Pages
         run: |
-          sed -i 's/title = "dioxus-resume"/title = "dioxus-resume"\nbase_path = "dioxus-resume"/' Dioxus.toml
+          sed -i 's/title = "Apiwat Kaiburt — Portfolio"/title = "Apiwat Kaiburt — Portfolio"\nbase_path = "apiwat-portfolio"/' Dioxus.toml
 
       - name: Build
         run: dx build --release
